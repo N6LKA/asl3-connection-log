@@ -24,10 +24,11 @@ else
   echo "$SCRIPT_DIR already exists, skipping."
 fi
 
-# Copy scripts
-echo "Installing conlog.sh and dislog.sh to $SCRIPT_DIR..."
-cp conlog.sh "$SCRIPT_DIR/conlog.sh"
-cp dislog.sh "$SCRIPT_DIR/dislog.sh"
+# Download scripts from GitHub
+BASE_URL="https://raw.githubusercontent.com/N6LKA/asl3-connection-log/main"
+echo "Downloading conlog.sh and dislog.sh to $SCRIPT_DIR..."
+curl -sSL "$BASE_URL/conlog.sh" -o "$SCRIPT_DIR/conlog.sh"
+curl -sSL "$BASE_URL/dislog.sh" -o "$SCRIPT_DIR/dislog.sh"
 
 # Set execute permissions
 chmod +x "$SCRIPT_DIR/conlog.sh"
