@@ -33,18 +33,12 @@ This will:
 
 ## Configuration
 
-After installation, edit your `/etc/asterisk/rpt.conf` and add the following lines to your node stanza (under `[YOURNODENUM]`):
+After installation, edit your `/etc/asterisk/rpt.conf` and add the following lines to your node stanza:
 
 ```ini
-connpgm = /etc/asterisk/scripts/conlog.sh      ; Execute on connect
-                                                ; arg1 = our node number
-                                                ; arg2 = connecting node number
-discpgm = /etc/asterisk/scripts/dislog.sh      ; Execute on disconnect
-                                                ; arg1 = our node number
-                                                ; arg2 = disconnecting node number
+connpgm = /etc/asterisk/scripts/conlog.sh
+discpgm = /etc/asterisk/scripts/dislog.sh
 ```
-
-Replace `YOURNODENUM` with your actual node number.
 
 After editing `rpt.conf`, restart Asterisk:
 
