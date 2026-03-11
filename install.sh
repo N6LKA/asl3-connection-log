@@ -30,9 +30,11 @@ echo "Downloading conlog.sh and dislog.sh to $SCRIPT_DIR..."
 curl -sSL "$BASE_URL/conlog.sh" -o "$SCRIPT_DIR/conlog.sh"
 curl -sSL "$BASE_URL/dislog.sh" -o "$SCRIPT_DIR/dislog.sh"
 
-# Set execute permissions
+# Set execute permissions and ownership
 chmod +x "$SCRIPT_DIR/conlog.sh"
 chmod +x "$SCRIPT_DIR/dislog.sh"
+chown "$OWNER" "$SCRIPT_DIR/conlog.sh"
+chown "$OWNER" "$SCRIPT_DIR/dislog.sh"
 echo "Permissions set."
 
 # Create log file if it doesn't exist
