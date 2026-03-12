@@ -18,7 +18,7 @@ A simple connection logging solution for **AllStar Link 3 (ASL3)** nodes running
 
 ## Installation
 
-Run the following command on your ASL3 node:
+Run the following command as root or with sudo on your ASL3 node:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/N6LKA/asl3-connection-log/main/install.sh | sudo bash
