@@ -74,7 +74,9 @@ tail -f /var/log/asterisk/connectlog
 
 ## License
 
-MIT License — free to use, modify, and distribute.
+MIT License — Copyright 2026 Larry K. Aycock (N6LKA)
+
+See [LICENSE](LICENSE) for details.
 
 ## Author
 
