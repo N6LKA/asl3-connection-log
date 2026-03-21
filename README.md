@@ -21,7 +21,7 @@ A simple connection logging solution for **AllStar Link 3 (ASL3)** nodes running
 Run the following command as root or with sudo on your ASL3 node:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/N6LKA/asl3-connection-log/main/install.sh | sudo bash
+curl -fsSL -H "Cache-Control: no-cache" https://raw.githubusercontent.com/N6LKA/asl3-connection-log/main/install.sh | sudo bash
 ```
 
 This will:
