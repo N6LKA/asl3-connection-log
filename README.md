@@ -1,5 +1,10 @@
 # asl3-connection-log
 
+![Release Version](https://img.shields.io/github/v/release/N6LKA/asl3-connection-log?label=Version&color=f15d24)
+![Release Date](https://img.shields.io/github/release-date/N6LKA/asl3-connection-log?label=Released&color=f15d24)
+![Hits](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FN6LKA%2Fasl3-connection-log.json&label=Hits&color=f15d24)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/N6LKA/asl3-connection-log?label=Size&color=f15d24)
+
 A simple connection logging solution for **AllStar Link 3 (ASL3)** nodes running on Debian/Ubuntu. Logs node connections and disconnections with timestamps to a dedicated log file.
 
 ## Features
