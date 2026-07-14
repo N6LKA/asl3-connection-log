@@ -77,6 +77,14 @@ tail -f /var/log/asterisk/connectlog
 | `dislog.sh` | Logs node disconnections |
 | `install.sh` | Installation script |
 
+## Support the Project
+
+If this project has been useful to you, please consider supporting its development!
+
+<p align="center"><a href="https://www.paypal.me/LarryAycock"><img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" width="300px" alt="Donate with PayPal"/></a></p>
+
+---
+
 ## License
 
 GNU General Public License v3.0 (GPLv3) — Copyright 2026 Larry K. Aycock (N6LKA)
