@@ -1,9 +1,9 @@
-# asl3-connection-log
+# ASL3-Connection-Log
 
-![Release Version](https://img.shields.io/github/v/release/N6LKA/asl3-connection-log?label=Version&color=f15d24)
-![Release Date](https://img.shields.io/github/release-date/N6LKA/asl3-connection-log?label=Released&color=f15d24)
-![Hits](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FN6LKA%2Fasl3-connection-log.json&label=Hits&color=f15d24)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/N6LKA/asl3-connection-log?label=Size&color=f15d24)
+![Release Version](https://img.shields.io/github/v/release/N6LKA/ASL3-Connection-Log?label=Version&color=f15d24)
+![Release Date](https://img.shields.io/github/release-date/N6LKA/ASL3-Connection-Log?label=Released&color=f15d24)
+![Hits](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FN6LKA%2FASL3-Connection-Log.json&label=Hits&color=f15d24)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/N6LKA/ASL3-Connection-Log?label=Size&color=f15d24)
 
 A simple connection logging solution for **AllStar Link 3 (ASL3)** nodes running on Debian/Ubuntu. Logs node connections and disconnections with timestamps to a dedicated log file.
 
@@ -26,7 +26,7 @@ A simple connection logging solution for **AllStar Link 3 (ASL3)** nodes running
 Run the following command as root or with sudo on your ASL3 node:
 
 ```bash
-curl -fsSL -H "Cache-Control: no-cache" https://raw.githubusercontent.com/N6LKA/asl3-connection-log/main/install.sh | sudo bash
+curl -fsSL -H "Cache-Control: no-cache" https://raw.githubusercontent.com/N6LKA/ASL3-Connection-Log/main/install.sh | sudo bash
 ```
 
 This will:
